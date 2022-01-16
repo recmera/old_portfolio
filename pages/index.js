@@ -20,9 +20,9 @@ export default function Home() {
         }}
       />
       <Container>
-        <Heading as="h1" size="3xl" top="80%">Hello, I'm Ricardo Coronado</Heading>
+        <Heading as="h1" size="3xl" top="80%">Hello, I&apos;m Ricardo Coronado</Heading>
         <Text fontSize="2xl" my={4}>A developer, researcher and student. </Text>
-        <Button colorScheme="cyan" size="lg">Let's chat!</Button>
+        <Button colorScheme="cyan" size="lg">Let&apos;s chat!</Button>
       </Container>
     </>
   )
