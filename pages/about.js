@@ -1,18 +1,31 @@
 import Container from "../components/Container";
 import { Heading, Text, Button, Box, Image, Stack } from "@chakra-ui/react";
 import NextLink from "next/link";
-
+import { FaTwitter, FaGithub, FaInstagram} from 'react-icons/fa';
 
 export default function About() {
     return (
         <>
             <Container>
                 <Stack direction="row" marginTop="5%">
-                    <Box width="30%">
-                        <Image boxSize='200px' src='https://avatars.githubusercontent.com/u/23617398?v=4' alt='Ricardo Coronado'></Image>
-                        <NextLink href="/contact" passHref>
-                            <Button colorScheme="cyan" size="sm" marginTop="30px"  >Download my cv!</Button>
-                        </NextLink>
+                    <Box width="30%" marginRight="10px">
+                        <Image src='https://avatars.githubusercontent.com/u/23617398?v=4'  my={3} border="1px solid white" p="5px" borderRadius={5} alt='Ricardo Coronado'></Image>
+                        
+                        <Stack>
+                            <NextLink href="/contact" passHref>
+                                <Button colorScheme="cyan" size="sm" marginBottom="5%"   >Download my cv!</Button>
+                            </NextLink>
+                            
+                            <Button  colorScheme="gray" size="sm" leftIcon={<FaGithub />}>
+                                Github
+                            </Button>
+                            <Button  colorScheme="pink" size="sm" leftIcon={<FaInstagram />}>
+                                Instagram
+                            </Button>
+                            <Button colorScheme="twitter" size="sm" leftIcon={<FaTwitter />}>
+                                Twitter
+                            </Button>
+                        </Stack>
                     </Box>
                     <Box width="70%">
                         <Heading>ESTE ES UN TITULO</Heading>
