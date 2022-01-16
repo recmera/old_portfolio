@@ -4,7 +4,7 @@ on: push
 
 
 jobs:
-  build.rpoject:
+  build.project:
     
     name: Installing my packages
     runs-on: ubuntu-latest
