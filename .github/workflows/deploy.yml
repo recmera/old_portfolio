@@ -1,0 +1,17 @@
+name: Build and release
+
+on: push
+
+
+jobs:
+  build.rpoject:
+    
+    name: Installing my packages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install NPM dependencies
+        uses: npm install
+      - name: Build static website
+        uses: npm run build
