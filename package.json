@@ -8,9 +8,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^1.1.1",
+    "@chakra-ui/react": "^1.7.4",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "framer-motion": "^4",
+    "fs": "^0.0.1-security",
+    "gray-matter": "^4.0.3",
     "next": "12.0.8",
+    "next-mdx-remote": "^3.0.8",
+    "next-seo": "^4.28.1",
+    "path": "^0.12.7",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "swr": "^1.1.2"
   },
   "devDependencies": {
     "eslint": "8.6.0",
