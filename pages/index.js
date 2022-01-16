@@ -22,17 +22,18 @@ export default function Home() {
         }}
       />
       <Container>
-        <Stack direction='row'>
-          <Box padding="5px">
-            <Image src="https://avatars.githubusercontent.com/u/23617398?v=4"/></Box>
-          <Box>
+        <Stack marginTop="10%" direction="row">
+          <Box width="100%">
             <Heading as="h1" size="3xl">Hello, I&apos;m Ricardo Coronado</Heading>
-            <Text fontSize="2xl" my={4}>A developer, researcher and student. </Text>
-            <NextLink href="/contact" passHref>
-              <Button colorScheme="cyan" size="lg" display="Flex">Let&apos;s chat!</Button>
-            </NextLink>
           </Box>
+          
+          <Image src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" boxSize="100px"/>
+            
         </Stack>
+        <Text  fontSize="2xl" my={4}>A developer, researcher and student. </Text>
+        <NextLink href="/contact" passHref>
+              <Button colorScheme="cyan" size="lg" display="Flex">Let&apos;s chat!</Button>
+        </NextLink> 
       </Container>
     </>
   )
