@@ -1,7 +1,7 @@
 name: Build and release
 on: push
 jobs:
-  build.project:
+  build-project:
     name: Installing my packages
     runs-on: ubuntu-latest
     steps:
