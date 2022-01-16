@@ -27,7 +27,7 @@ export default function Home() {
             <Heading as="h1" size="3xl">Hello, I&apos;m Ricardo Coronado</Heading>
           </Box>
           
-          <Image src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" boxSize="100px"/>
+          <Image src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" boxSize="100px" alt="hi"/>
             
         </Stack>
         <Text  fontSize="2xl" my={4}>A developer, researcher and student. </Text>
