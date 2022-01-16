@@ -1,12 +1,17 @@
-import fs from "fs";
-import matter from "gray-matter";
-import NextLink from "next/link";
-import path from "path";
-import { postFilePaths, POSTS_PATH } from "../lib/mdxUtils";
-import { Heading, Link, UnorderedList, ListItem } from "@chakra-ui/react";
-import Container from "../components/Container";
+import fs from 'fs'
+import matter from 'gray-matter'
+import NextLink from 'next/link'
+import path from 'path'
+import { postFilePaths, POSTS_PATH } from '../lib/mdxUtils'
+import {
+    Heading,
+    Link,
+    UnorderedList,
+    ListItem
+} from '@chakra-ui/react'
+import Container from '../components/Container'
 
-export default function Blog({posts}) {
+export default function Blog({ posts }) {
     return (
         <Container>
             <Heading as="h1">Posts</Heading>
@@ -22,12 +27,11 @@ export default function Blog({posts}) {
                     </ListItem>
                 ))}
             </UnorderedList>
-
         </Container>
     )
-};
+}
 
-export function getStaticProps() { 
+export function getStaticProps() {
     const posts = postFilePaths.map((filePath) => {
         const source = fs.readFileSync(path.join(POSTS_PATH, filePath))
         const { content, data } = matter(source)
@@ -35,8 +39,9 @@ export function getStaticProps() {
         return {
             content,
             data,
-            filePath, 
+            filePath,
         }
     })
+
     return { props: { posts } }
 }
