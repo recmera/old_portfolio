@@ -17,9 +17,10 @@ export default function Projects() {
             <Heading as="h1">Projects ({data.repos.length})</Heading>
             <Flex flexDir="column">
                 {
+                    
                     data.repos.map((p) => (
                         <Link href={`/project/${p.name}`} key={p.name}>
-                            <Flex flexDir="column" my={4} border="1px solid gray" p="5px" borderRadius={5}>
+                            <Flex flexDir="column" my={4} >
                                 <Text fontWeight="bold">{p.name}</Text>
                                 <Text>{p.description}</Text>
                                 <Text>{p.stars} stars</Text>

@@ -1,5 +1,5 @@
 import Container from "../components/Container";
-import { Heading, Text, Button, Center } from "@chakra-ui/react";
+import { Heading, Text, Button, Box, Image, Stack } from "@chakra-ui/react";
 import { NextSeo } from "next-seo";
 export default function Home() {
 
@@ -20,9 +20,17 @@ export default function Home() {
         }}
       />
       <Container>
-        <Heading as="h1" size="3xl" top="80%">Hello, I&apos;m Ricardo Coronado</Heading>
-        <Text fontSize="2xl" my={4}>A developer, researcher and student. </Text>
-        <Button colorScheme="cyan" size="lg">Let&apos;s chat!</Button>
+        <Stack direction='row'>
+          <Box padding="5px">
+            <Image src="https://avatars.githubusercontent.com/u/23617398?v=4"/></Box>
+          <Box>
+            <Heading as="h1" size="3xl">Hello, I&apos;m Ricardo Coronado</Heading>
+            <Text fontSize="2xl" my={4}>A developer, researcher and student. </Text>
+            <Button colorScheme="cyan" size="lg" display="Flex">Let&apos;s chat!</Button>
+          </Box>
+        </Stack>
+        
+      
       </Container>
     </>
   )

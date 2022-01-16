@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "scripts": {
-    "dev": "next dev --port 8000",
+    "dev": "next dev --port 4000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
