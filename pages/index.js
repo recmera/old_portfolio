@@ -1,4 +1,6 @@
+import React from 'react'
 import Container from "../components/Container";
+import NextLink from "next/link";
 import { Heading, Text, Button, Box, Image, Stack } from "@chakra-ui/react";
 import { NextSeo } from "next-seo";
 export default function Home() {
@@ -26,11 +28,11 @@ export default function Home() {
           <Box>
             <Heading as="h1" size="3xl">Hello, I&apos;m Ricardo Coronado</Heading>
             <Text fontSize="2xl" my={4}>A developer, researcher and student. </Text>
-            <Button colorScheme="cyan" size="lg" display="Flex">Let&apos;s chat!</Button>
+            <NextLink href="/contact" passHref>
+              <Button colorScheme="cyan" size="lg" display="Flex">Let&apos;s chat!</Button>
+            </NextLink>
           </Box>
         </Stack>
-        
-      
       </Container>
     </>
   )

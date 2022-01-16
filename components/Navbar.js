@@ -36,6 +36,17 @@ const Navbar = () => {
                         Home
                     </Button>
                 </NextLink>
+                <NextLink href="/about" passHref>
+                    <Button
+                        as="a"
+                        variant="ghost"
+                        p={[1, 2, 4]}
+                        _hover={{ backgroundColor: navHoverBg[colorMode] }} backgroundColor={router.pathname === '/aboutme' ? navHoverBg[colorMode] : null}
+                        aria-label="About"
+                    >
+                        About
+                    </Button>
+                </NextLink>
                 <NextLink href="/projects" passHref>
                     <Button
                         as="a"
