@@ -32,7 +32,7 @@ export default function Home() {
         </Stack>
         <Text  fontSize="2xl" my={4}>A developer, researcher and student. </Text>
         <NextLink href="/contact" passHref>
-              <Button colorScheme="cyan" size="lg" display="Flex">Let&apos;s chat!</Button>
+              <Button colorScheme="cyan" size="lg" display="Flex">Contact me!</Button>
         </NextLink> 
       </Container>
     </>
