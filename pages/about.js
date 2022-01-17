@@ -9,17 +9,17 @@ export default function About() {
             <Container>
                 <Stack direction="row" marginTop="5%">
                     <Box width="30%" marginRight="10px">
-                        <Image src='https://avatars.githubusercontent.com/u/23617398?v=4'  my={3} border="1px solid white" p="5px" borderRadius={5} alt='Ricardo Coronado'></Image>
+                        <Image src='https://avatars.githubusercontent.com/u/23617398?v=4'  my={4} border="1px solid gray" p="1px" borderRadius={5} alt='Ricardo Coronado'></Image>
                         
                         <Stack>
-                            <NextLink href="/contact" passHref>
+                            <NextLink href="/cv.pdf" passHref>
                                 <Button colorScheme="cyan" size="sm" marginBottom="5%"   >Download my cv!</Button>
                             </NextLink>
                             
-                            <Button  colorScheme="gray" size="sm" leftIcon={<FaGithub />}>
+                            <Button  colorScheme="gray" size="sm" leftIcon={<FaGithub />} url={"https://github.com/rickiwasho"}>
                                 Github
                             </Button>
-                            <Button  colorScheme="pink" size="sm" leftIcon={<FaInstagram />}>
+                            <Button  colorScheme="red" size="sm" leftIcon={<FaInstagram />}>
                                 Instagram
                             </Button>
                             <Button colorScheme="twitter" size="sm" leftIcon={<FaTwitter />}>

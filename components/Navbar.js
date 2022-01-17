@@ -41,7 +41,7 @@ const Navbar = () => {
                         as="a"
                         variant="ghost"
                         p={[1, 2, 4]}
-                        _hover={{ backgroundColor: navHoverBg[colorMode] }} backgroundColor={router.pathname === '/aboutme' ? navHoverBg[colorMode] : null}
+                        _hover={{ backgroundColor: navHoverBg[colorMode] }} backgroundColor={router.pathname === '/about' ? navHoverBg[colorMode] : null}
                         aria-label="About"
                     >
                         About
