@@ -3,6 +3,7 @@ import {
     Flex,
     Heading,
     Text,
+    NextLink,
     Link
 } from '@chakra-ui/react'
 import Container from '../components/Container'
@@ -19,12 +20,11 @@ export default function Projects() {
                 {
                     
                     data.repos.map((p) => (
-                        <Link href={`/project/${p.name}`} key={p.name}>
+                        <Link href={p.url} passHref>
                             <Flex flexDir="column" my={4} >
-                                <Text fontWeight="bold">{p.name}</Text>
+                                <Text fontWeight="bold" fontSize='xl' color='gray'>{p.name}</Text>
                                 <Text>{p.description}</Text>
-                                <Text>{p.stars} stars</Text>
-                                <Text>{p.url}</Text>
+                                <Text  as='cite'>{p.url}</Text>
                                 <Text>{p.language}</Text>
                             </Flex>
                         </Link>

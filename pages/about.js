@@ -7,9 +7,9 @@ export default function About() {
     return (
         <>
             <Container>
-                <Stack direction="row" marginTop="2%">
+                <Stack direction="row" >
                     <Box width="30%" marginRight="10px">
-                        <Image src='https://avatars.githubusercontent.com/u/23617398?v=4'  my={4} border="1px solid gray" p="1px" borderRadius={5} alt='Ricardo Coronado'></Image>
+                        <Image src='profile.JPG'  my={2} border="1px solid gray" p="1px" borderRadius={5} alt='Ricardo Coronado'></Image>
                         
                         <Stack>
                             <NextLink href="/cv.pdf" passHref>
