@@ -20,7 +20,7 @@ export default function Projects() {
                 {
                     
                     data.repos.map((p) => (
-                        <Link href={p.url} passHref>
+                        <Link href={p.url} key={p.url}>
                             <Flex flexDir="column" my={4} >
                                 <Text fontWeight="bold" fontSize='xl' color='gray'>{p.name}</Text>
                                 <Text>{p.description}</Text>
