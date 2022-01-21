@@ -22,17 +22,15 @@ export default function Home() {
         }}
       />
       <Container>
-        <Stack marginTop="10%" direction="row">
+        <Stack marginTop="20%" direction="row">
           <Box width="100%">
             <Heading as="h1" size="3xl">Hello, I&apos;m Ricardo Coronado</Heading>
           </Box>
-          
-          <Image src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" boxSize="100px" alt="hi"/>
-            
+                    
         </Stack>
-        <Text  fontSize="2xl" my={4}>A developer, researcher and student. </Text>
+        <Text  fontSize="2xl" as="cite" my={4}>A developer, researcher and student. </Text>
         <NextLink href="/contact" passHref>
-              <Button colorScheme="cyan" size="lg" display="Flex">Contact me!</Button>
+              <Button colorScheme="teal" size="lg" display="Flex">Contact me!</Button>
         </NextLink> 
       </Container>
     </>

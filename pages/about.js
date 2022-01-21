@@ -13,27 +13,27 @@ export default function About() {
                         
                         <Stack>
                             <NextLink href="/cv.pdf" passHref>
-                                <Button colorScheme="cyan" size="sm" marginBottom="5%"   >Download my cv!</Button>
+                                <Button colorScheme="teal" size="sm" marginBottom="5%"   >Download my CV</Button>
                             </NextLink>
                             
                             <NextLink href="http://github.com/rickiwasho" passHref>
-                                <Button  colorScheme="gray" size="sm" leftIcon={<FaGithub />}> Github</Button>
+                                <Button  colorScheme="gray" size="xs" leftIcon={<FaGithub />}> Github</Button>
                             </NextLink>
 
                             <NextLink href="https://www.linkedin.com/in/ricardo-coronado-mera/" passHref>
-                                <Button  colorScheme="linkedin" size="sm" leftIcon={<FaLinkedin />}>LinkedIn</Button>
+                                <Button  colorScheme="gray" size="xs" leftIcon={<FaLinkedin />}>LinkedIn</Button>
                             </NextLink>
 
                             <NextLink href="http://instagram.com/rickiwasho" passHref>
-                                <Button  colorScheme="red" size="sm" leftIcon={<FaInstagram />}>Instagram</Button>
+                                <Button  colorScheme="gray" size="xs" leftIcon={<FaInstagram />}>Instagram</Button>
                             </NextLink>
                             
                             <NextLink href="https://wa.me/56981764379" passHref>
-                                <Button colorScheme="whatsapp" size="sm" leftIcon={<FaWhatsapp />}>WhatsApp</Button>
+                                <Button colorScheme="gray" size="xs" leftIcon={<FaWhatsapp />}>WhatsApp</Button>
                             </NextLink>
 
                             <NextLink href="http://twitter.com/naturalfreqs" passHref>
-                                <Button colorScheme="twitter" size="sm" leftIcon={<FaTwitter />}>Twitter</Button>
+                                <Button colorScheme="gray" size="xs" leftIcon={<FaTwitter />}>Twitter</Button>
                             </NextLink>
                         </Stack>
                     </Box>

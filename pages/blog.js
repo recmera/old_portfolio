@@ -22,7 +22,7 @@ export default function Blog({ posts }) {
                             as={`/blog/${post.filePath.replace(/\.mdx?$/, '')}`}
                             href={`/blog/[slug]`}
                         >
-                            <Link>{post.data.title} - {post.data.description}</Link>
+                            <Link>{post.data.publishedAt} - {post.data.title}</Link>
                         </NextLink>
                     </ListItem>
                 ))}
