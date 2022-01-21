@@ -38,17 +38,18 @@ export default function About() {
                         </Stack>
                     </Box>
                     <Box width="70%">
-                        <Heading>ESTE ES UN TITULO</Heading>
+                        <Heading>About Ricardo </Heading>
                         <Box >
                             <Text>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit placerat sodales. Aliquam commodo ut ligula eu lacinia. Curabitur sagittis, turpis in dapibus elementum, elit ipsum semper tortor, ut vestibulum mauris nunc vehicula felis. Pellentesque interdum facilisis justo, sit amet interdum mauris viverra sit amet. Integer fermentum turpis dictum sapien cursus vehicula. Mauris pharetra erat nisi, lobortis gravida neque eleifend id. Nulla sit amet euismod nibh, rutrum egestas mi. Maecenas quis efficitur elit. Mauris venenatis posuere lectus, at tincidunt felis finibus et.
-                            </Text>
+                                Ricardo was born in Valdivia, Chile in 1997. He is currently studying &apos;Ingeniería civil en Informática&apos; in UACh.</Text>
+                            <br></br>
+                            <Text>
+                                His main interest lies in working with text, and for that very reason, he is doing his internship at Sophia2, a company dedicated to the classification of news from the different newspapers in Chile.</Text>
+                            <br></br>
+                            <Text>
+                            Ricardo is writing his thesis and is quite stressed, but he is probably doing it very well 😌.</Text>
                         </Box>
-                        <Box>
-                            <Text marginTop="20px">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit placerat sodales. Aliquam commodo ut ligula eu lacinia. Curabitur sagittis, turpis in dapibus elementum, elit ipsum semper tortor, ut vestibulum mauris nunc vehicula felis. Pellentesque interdum facilisis justo, sit amet interdum mauris viverra sit amet. Integer fermentum turpis dictum sapien cursus vehicula. Mauris pharetra erat nisi, lobortis gravida neque eleifend id. Nulla sit amet euismod nibh, rutrum egestas mi. Maecenas quis efficitur elit. Mauris venenatis posuere lectus, at tincidunt felis finibus et.
-                            </Text>
-                        </Box>
+                        
                     </Box>
                 </Stack>
             </Container>
