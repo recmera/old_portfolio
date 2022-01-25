@@ -9,6 +9,13 @@ export default function Home() {
   const title = "Ricardo Coronado's website"
   const description = 'in this website i write about things im interested.'
 
+  {/*
+    <NextLink href="/contact" passHref>
+      <Button colorScheme="teal" size="lg" display="Flex">Contact me!</Button>
+    </NextLink>
+  
+  */}
+
   return (
     <>
       <NextSeo
@@ -29,9 +36,7 @@ export default function Home() {
                     
         </Stack>
         <Text  fontSize="2xl" as="cite" my={4}>A developer, researcher and student. </Text>
-        <NextLink href="/contact" passHref>
-              <Button colorScheme="teal" size="lg" display="Flex">Contact me!</Button>
-        </NextLink> 
+        
       </Container>
     </>
   )
