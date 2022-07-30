@@ -15,7 +15,7 @@
     "framer-motion": "^4",
     "fs": "^0.0.1-security",
     "gray-matter": "^4.0.3",
-    "next": "12.0.8",
+    "next": "12.0.9",
     "next-mdx-remote": "^3.0.8",
     "next-seo": "^4.28.1",
     "path": "^0.12.7",
