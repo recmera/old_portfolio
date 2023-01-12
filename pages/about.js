@@ -16,20 +16,16 @@ export default function About() {
                                 <Button colorScheme="teal" size="sm" marginBottom="5%"   >Download my CV</Button>
                             </NextLink>
                             
-                            <NextLink href="http://github.com/rickiwasho" passHref>
+                            <NextLink href="http://github.com/recmera" passHref>
                                 <Button  colorScheme="gray" size="xs" leftIcon={<FaGithub />}> Github</Button>
                             </NextLink>
 
-                            <NextLink href="https://www.linkedin.com/in/ricardo-coronado-mera/" passHref>
+                            <NextLink href="https://www.linkedin.com/in/recmera/" passHref>
                                 <Button  colorScheme="gray" size="xs" leftIcon={<FaLinkedin />}>LinkedIn</Button>
                             </NextLink>
 
                             <NextLink href="http://instagram.com/rickiwasho" passHref>
                                 <Button  colorScheme="gray" size="xs" leftIcon={<FaInstagram />}>Instagram</Button>
-                            </NextLink>
-                            
-                            <NextLink href="https://wa.me/56981764379" passHref>
-                                <Button colorScheme="gray" size="xs" leftIcon={<FaWhatsapp />}>WhatsApp</Button>
                             </NextLink>
 
                             <NextLink href="http://twitter.com/naturalfreqs" passHref>
@@ -44,7 +40,10 @@ export default function About() {
                                 Ricardo was born in Valdivia, Chile in 1997. He is currently studying &apos;Ingeniería civil en Informática&apos; in UACh.</Text>
                             <br></br>
                             <Text>
-                                His main interest lies in working with text, and for that very reason, he is doing his internship at Sophia2, a company dedicated to the classification of news from the different newspapers in Chile.</Text>
+                                His main interest lies in working with text, and for that very reason, he is doing his internship at Sophia2, 
+                                a group of researchers and students from the FCI and the Faculty of Philosophy and Humanities of the UACh. 
+                                This group develops scientific software and protocols to analyze social and cognitive phenomena related to the 
+                                consumption and production of press news in Chile.</Text>
                             <br></br>
                             <Text>
                             Ricardo is writing his thesis and is quite stressed, but he is probably doing it very well 😌.</Text>
